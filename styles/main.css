@@ -96,11 +96,11 @@ body {
     line-height: 19px;
     text-align: center;
     letter-spacing: 3px;
-    margin: 0 62px;
+    margin: 0 50px;
     white-space: nowrap; }
   .nav__item_active {
-    margin-left: 318px;
-    position: relative; }
+    position: relative;
+    margin-left: 300px; }
     .nav__item_active::after {
       content: "";
       background: #2060f6;
@@ -113,11 +113,13 @@ body {
   .nav__link {
     text-decoration: none;
     color: #fff;
-    -webkit-transition: 0.5s ease-in-out;
-    transition: 0.5s ease-in-out; }
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out; }
     .nav__link:hover {
       text-shadow: 3px 3px #000;
       color: #2060f6; }
+    .nav__link:focus {
+      outline: none; }
 
 @media screen and (max-width: 1600px) {
   .nav__item {
@@ -150,8 +152,8 @@ body {
   border-radius: 8px;
   color: #fff;
   cursor: pointer;
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out; }
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out; }
   .button:hover {
     background: #fff;
     color: #2060f6;
@@ -177,21 +179,24 @@ body {
     .slider__button--left {
       bottom: 66px;
       left: 48px;
-      -webkit-transition: 0.5s ease-in-out;
-      transition: 0.5s ease-in-out; }
+      -webkit-transition: 0.2s ease-in-out;
+      transition: 0.2s ease-in-out;
+      outline: none; }
       .slider__button--left:hover {
         -webkit-transform: scale(1.2);
-                transform: scale(1.2);
-        border: 2px solid #2060f6; }
+                transform: scale(1.2); }
+      .slider__button--left:focus {
+        outline: none; }
     .slider__button--right {
       bottom: 66px;
       left: 88px;
-      -webkit-transition: 0.5s ease-in-out;
-      transition: 0.5s ease-in-out; }
+      -webkit-transition: 0.2s ease-in-out;
+      transition: 0.2s ease-in-out; }
       .slider__button--right:hover {
         -webkit-transform: scale(1.2);
-                transform: scale(1.2);
-        border: 2px solid #2060f6; }
+                transform: scale(1.2); }
+      .slider__button--right:focus {
+        outline: none; }
   .slider__heading {
     width: 52px;
     font-family: "Poppins", sans-serif;
