@@ -4,7 +4,9 @@
   font-weight: normal;
   font-style: normal; }
 
-body {
+body,
+header,
+section {
   margin: 0;
   padding: 0; }
 
@@ -100,7 +102,7 @@ body {
     white-space: nowrap; }
   .nav__item_active {
     position: relative;
-    margin-left: 300px; }
+    margin-left: 318px; }
     .nav__item_active::after {
       content: "";
       background: #2060f6;
@@ -224,5 +226,96 @@ body {
   .slider {
     width: 100%;
     height: 600px; } }
+
+.section__heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 78px;
+  color: #253757;
+  padding-top: 128px;
+  text-align: center; }
+
+.section__expert {
+  background-color: #fff;
+  border-radius: 30px; }
+
+.welcome {
+  max-width: 754px;
+  margin: 0 auto; }
+  .welcome__heading {
+    width: 191px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #253757;
+    margin-bottom: 16px;
+    padding-top: 148px; }
+  .welcome__text {
+    width: 754px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #6c788b;
+    padding-bottom: 148px; }
+
+@media screen and (max-width: 1000px) {
+  .welcome {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .welcome__text {
+      width: 300px; } }
+
+.expertise {
+  display: grid;
+  grid-gap: 177px;
+  grid-template-columns: repeat(3, 265px);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+@media screen and (max-width: 1000px) {
+  .expertise {
+    display: grid;
+    grid-template-columns: repeat(1, 265px);
+    grid-gap: 10px; } }
+
+.action__photo {
+  width: 184px;
+  height: 166px;
+  border-radius: 10%;
+  display: block;
+  margin: auto; }
+
+.action__name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #253757;
+  text-align: center;
+  margin-top: 40px; }
+
+.action__text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  color: #6c788b;
+  text-align: center;
+  padding-bottom: 155px; }
+
+body {
+  background-color: #e5e5e5; }
 
 /*# sourceMappingURL=main.css.map */
