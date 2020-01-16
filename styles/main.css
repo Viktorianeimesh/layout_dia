@@ -6,7 +6,9 @@
 
 body,
 header,
-section {
+section,
+h1,
+h5 {
   margin: 0;
   padding: 0; }
 
@@ -528,6 +530,147 @@ li {
     line-height: 22px;
     color: #fff;
     mix-blend-mode: normal; }
+  .approach__slider {
+    width: 42%;
+    background-image: url(../images/slider/approach.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    margin-top: 296px;
+    border-top-left-radius: 30px; }
+
+.testimonials {
+  padding: 0 227px; }
+  .testimonials__rubric {
+    width: 127px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #c0cdd7;
+    margin-top: 148px;
+    margin-bottom: 16px; }
+  .testimonials__heading {
+    width: 362px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #253757;
+    margin-bottom: 85px; }
+  .testimonials__block {
+    display: grid;
+    grid-template-columns: repeat(3, 315px);
+    grid-gap: 125px;
+    padding: 0 227px; }
+
+.testimonials-card {
+  padding: 32px;
+  background-color: #fff;
+  border-radius: 16px;
+  margin-bottom: 168px;
+  -webkit-box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03);
+          box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03); }
+  .testimonials-card__photo {
+    width: 250px;
+    height: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px; }
+  .testimonials-card__image {
+    border-radius: 50%;
+    z-index: 1; }
+  .testimonials-card__decoration {
+    height: 139px;
+    width: 55px;
+    border-radius: 12px;
+    background: #2060f6; }
+  .testimonials-card__decoration:first-child {
+    -webkit-transform: translate(50px, -50px) rotate(30deg);
+            transform: translate(50px, -50px) rotate(30deg); }
+  .testimonials-card__decoration:last-child {
+    -webkit-transform: translate(-50px, 50px) rotate(30deg);
+            transform: translate(-50px, 50px) rotate(30deg); }
+  .testimonials-card__quotes {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px; }
+  .testimonials-card__feedback {
+    width: 250px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    color: #6c788b;
+    margin-bottom: 16px; }
+  .testimonials-card__name {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    color: #253757;
+    margin-bottom: 4px; }
+  .testimonials-card__company {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #c0cdd7;
+    text-transform: uppercase; }
+
+.vision {
+  height: 867px;
+  background-color: #fff; }
+  .vision__general {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .vision__heading {
+    margin-top: 200px;
+    margin-bottom: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 78px;
+    text-align: center;
+    color: #253757; }
+  .vision__text {
+    font-family: "Open Sans", sans-serif;
+    width: 754px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #6c788b;
+    text-align: center;
+    margin-bottom: 64px; }
 
 body {
   background-color: #e5e5e5; }
