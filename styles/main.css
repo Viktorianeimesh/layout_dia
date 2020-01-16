@@ -638,7 +638,8 @@ li {
 
 .vision {
   height: 867px;
-  background-color: #fff; }
+  background-color: #fff;
+  position: relative; }
   .vision__general {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -671,6 +672,138 @@ li {
     color: #6c788b;
     text-align: center;
     margin-bottom: 64px; }
+  .vision__pin:nth-child(1) {
+    position: absolute;
+    width: 85px;
+    height: 34px;
+    -webkit-transform: rotate(-65deg);
+            transform: rotate(-65deg);
+    border-radius: 12px;
+    border: 3px solid #2060f6;
+    opacity: 0.5;
+    top: 72px;
+    left: 233px; }
+  .vision__pin:nth-child(2) {
+    position: absolute;
+    width: 45px;
+    height: 18px;
+    -webkit-transform: rotate(-65deg);
+            transform: rotate(-65deg);
+    border-radius: 12px;
+    border: 3px solid #2060f6;
+    opacity: 0.5;
+    top: 77px;
+    left: 450px; }
+  .vision__pin:nth-child(3) {
+    position: absolute;
+    width: 144px;
+    height: 57.6px;
+    -webkit-transform: rotate(-65deg);
+            transform: rotate(-65deg);
+    border-radius: 12px;
+    border: 5px solid #2060f6;
+    opacity: 0.5;
+    top: 283px;
+    left: 269px; }
+  .vision__pin:nth-child(4) {
+    position: absolute;
+    width: 68px;
+    height: 27.2px;
+    -webkit-transform: rotate(-65deg);
+            transform: rotate(-65deg);
+    border-radius: 12px;
+    border: 5px solid #2060f6;
+    opacity: 0.5;
+    top: 370px;
+    left: 82px; }
+  .vision__pin:nth-child(5) {
+    position: absolute;
+    width: 94px;
+    height: 37.6px;
+    -webkit-transform: rotate(-65deg);
+            transform: rotate(-65deg);
+    border-radius: 12px;
+    border: 5px solid #2060f6;
+    opacity: 0.5;
+    top: 518px;
+    left: 132px; }
+  .vision__pin:nth-child(6) {
+    position: absolute;
+    width: 46px;
+    height: 18.4px;
+    -webkit-transform: rotate(-65deg);
+            transform: rotate(-65deg);
+    border-radius: 12px;
+    border: 3px solid #2060f6;
+    opacity: 0.5;
+    top: 465px;
+    left: 481px; }
+  .vision__pin:nth-child(7) {
+    position: absolute;
+    width: 144px;
+    height: 57.6px;
+    -webkit-transform: rotate(-65deg);
+            transform: rotate(-65deg);
+    border-radius: 12px;
+    border: 5px solid #2060f6;
+    opacity: 0.5;
+    top: 130px;
+    right: 215px; }
+  .vision__pin:nth-child(8) {
+    position: absolute;
+    width: 54px;
+    height: 21.6px;
+    -webkit-transform: rotate(-65deg);
+            transform: rotate(-65deg);
+    border-radius: 12px;
+    border: 3px solid #2060f6;
+    opacity: 0.5;
+    top: 110px;
+    right: 112px; }
+  .vision__pin:nth-child(9) {
+    position: absolute;
+    width: 84px;
+    height: 33.6px;
+    -webkit-transform: rotate(-65deg);
+            transform: rotate(-65deg);
+    border-radius: 12px;
+    border: 3px solid #2060f6;
+    opacity: 0.5;
+    top: 277px;
+    right: 68px; }
+  .vision__pin:nth-child(10) {
+    position: absolute;
+    width: 46px;
+    height: 18.4px;
+    -webkit-transform: rotate(-65deg);
+            transform: rotate(-65deg);
+    border-radius: 12px;
+    border: 3px solid #2060f6;
+    opacity: 0.5;
+    top: 514px;
+    right: 552px; }
+  .vision__pin:nth-child(11) {
+    position: absolute;
+    width: 86px;
+    height: 34.4px;
+    -webkit-transform: rotate(-65deg);
+            transform: rotate(-65deg);
+    border-radius: 12px;
+    border: 3px solid #2060f6;
+    opacity: 0.5;
+    top: 385px;
+    right: 314px; }
+  .vision__pin:nth-child(12) {
+    position: absolute;
+    width: 154px;
+    height: 61.6px;
+    -webkit-transform: rotate(-65deg);
+            transform: rotate(-65deg);
+    border-radius: 12px;
+    border: 5px solid #2060f6;
+    opacity: 0.5;
+    top: 413px;
+    right: 144px; }
 
 body {
   background-color: #e5e5e5; }
